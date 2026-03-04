@@ -1,0 +1,89 @@
+.main{
+  display: grid;
+  row-gap: 1em;
+  width: 80%;
+  justify-self: center;
+}
+
+.main-navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  border-color: yellow;
+  width: 98%;
+  justify-self: center;
+  border-style: solid;
+  border-width: 0.02em;
+  border-radius: 1em;
+  background-color: black;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+}
+
+.main-navbar > a {
+  text-decoration: none;
+  color: white;
+  padding: 0em 1em;
+}
+
+.main-navbar > a:hover {
+  text-shadow: #fff 1px 0 0.5em;
+}
+
+.main-navbar-img {
+  align-content: end;
+  width: 40px;
+  padding-left: 1em;
+  
+}
+
+.phone {
+  display:none;
+}
+
+
+
+
+@media (width <= 800px) {
+  
+  .main {
+    width: 100%;
+    justify-self: center;
+  }
+  .main-navbar {
+    width: 80%;
+    justify-content: center;
+  }
+  
+  .main-navbar-img{
+    padding-left: 0em;
+  }
+  .no-phone {
+    display: none;
+  }
+  
+  .phone {
+    display:flex;
+    background-color: transparent;
+    justify-self: center;
+    border-color: transparent;
+  }
+  
+  .phone:hover{
+    cursor: pointer;
+  }
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #383838;
+}
+
+::-webkit-scrollbar-thumb {
+  background: yellow;
+}

@@ -1,0 +1,35 @@
+.proyect-section {
+  width: 100%;
+}
+
+.proyect-widget {
+  display: flex;
+  flex-direction: row;
+  gap: 4%;
+}
+
+.proyect-list{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  width: 48%;
+}
+
+.proyect-media {
+  width: 48%;
+  border-style: solid;
+}
+
+.proyect-window {
+  border-color: yellow ;
+  border-style: solid;
+  border-width: 0.125em;
+  border-top-width: 1em;
+}
+
+@media (width <= 800px) {
+  .proyect-section {
+    width: 80%;
+    justify-self: center;
+  }
+}

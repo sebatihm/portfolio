@@ -1,0 +1,12 @@
+.language > span {
+  background-color: rgb(44, 44, 0);
+  color: white;
+  border-color: yellow;
+  border-style: solid;
+  padding: 0.25em 1em;
+  border-radius: 1em;
+}
+
+.language {
+  margin: 0;
+}
