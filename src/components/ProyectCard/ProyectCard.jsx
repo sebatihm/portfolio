@@ -4,6 +4,12 @@ import './ProyectCard.css'
 
 export const ProyectCard = () => {
   // const [proyect, setProyect] = useState(proyects[0]);
+
+  const changeProyect = (index) => {
+
+    console.log('Indice del proyecto elegido: ' + index)
+  }
+
   return (
     <div className='proyect-section'>
       <h2>Proyects</h2>
@@ -12,9 +18,14 @@ export const ProyectCard = () => {
         <div className='proyect-list'>
           {proyects.map((proyect, index) => {
             return (
-              <div key={index} className='proyect-window'>
-                {proyect.title}
-              </div>
+              <button key={index} className='proyect-window' onClick={(e) => {
+                  e.preventDefault();
+                  changeProyect(index);
+                }}>
+                <img src={proyect.technologies.main_language} alt="Language Image" />
+                <p><span>{proyect.title}</span></p>
+                
+              </button>
             )
           })}
         </div>

@@ -11,8 +11,11 @@
 .proyect-list{
   display: flex;
   flex-direction: column;
-  gap: 0.5em;
+  gap: 1em;
   width: 48%;
+  overflow-y: auto;
+  height: 400px;
+
 }
 
 .proyect-media {
@@ -21,15 +24,47 @@
 }
 
 .proyect-window {
-  border-color: yellow ;
-  border-style: solid;
-  border-width: 0.125em;
-  border-top-width: 1em;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0%;
+  color: #000;
+  border-style: none;
+  width: 95%;
 }
+
+.proyect-window:hover {
+  background-color: rgb(255, 255, 209);
+  cursor: pointer;
+}
+
+.proyect-window > img {
+  max-height: 50px;
+}
+
+.proyect-window > p{
+  margin: 0%;
+  padding-left: 2em;
+}
+
 
 @media (width <= 800px) {
   .proyect-section {
     width: 80%;
     justify-self: center;
+  }
+
+  .proyect-widget{
+    display: grid;
+  }
+  .proyect-list {
+    width: 100%;
+    height: 200px;
+  }
+
+  .proyect-media{
+    width: 100%;
+    height: 200px;
   }
 }
