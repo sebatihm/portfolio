@@ -1,70 +1,71 @@
 .proyect-section {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.proyect-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.proyect-card {
+  border: 2px solid yellow;
+  background: rgb(24, 24, 24);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(136, 255, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.proyect-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.proyect-image {
   width: 100%;
+  height: 180px;
+  object-fit: cover;
 }
 
-.proyect-widget {
-  display: flex;
-  flex-direction: row;
-  gap: 4%;
+.proyect-content {
+  padding: 1em;
+  text-align: left;
 }
 
-.proyect-list{
+.proyect-content h3 {
+  margin: 0.5em 0;
+}
+
+.proyect-technologies {
   display: flex;
-  flex-direction: column;
+  gap: 0.5em;
+  margin: 1em 0;
+}
+
+.proyect-technologies img {
+  width: 30px;
+  height: 30px;
+}
+
+.proyect-links {
+  display: flex;
   gap: 1em;
-  width: 48%;
-  overflow-y: auto;
-  height: 400px;
-
 }
 
-.proyect-media {
-  width: 48%;
-  border-style: solid;
+.proyect-links a {
+  text-decoration: none;
+  background: black;
+  color: white;
+  padding: 0.4em 0.8em;
+  border-radius: 6px;
+  font-size: 0.9em;
+  transition: background 0.3s;
 }
 
-.proyect-window {
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0%;
-  color: #000;
-  border-style: none;
-  width: 95%;
-}
-
-.proyect-window:hover {
-  background-color: rgb(255, 255, 209);
-  cursor: pointer;
-}
-
-.proyect-window > img {
-  max-height: 50px;
-}
-
-.proyect-window > p{
-  margin: 0%;
-  padding-left: 2em;
-}
-
-
-@media (width <= 800px) {
-  .proyect-section {
-    width: 80%;
-    justify-self: center;
-  }
-
-  .proyect-widget{
-    display: grid;
-  }
-  .proyect-list {
-    width: 100%;
-    height: 200px;
-  }
-
-  .proyect-media{
-    width: 100%;
-    height: 200px;
-  }
+.proyect-links a:hover {
+  background: #333;
 }

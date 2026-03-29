@@ -1,4 +1,5 @@
 import './App.css'
+import { CertificationCarousel } from './components/CertificationsCarousel/CertificationCarousel';
 import { InfoCard } from './components/InfoCard/InfoCard'
 import { ProyectCard } from './components/ProyectCard/ProyectCard';
 
@@ -25,6 +26,8 @@ function App() {
         <InfoCard/>
 
         <ProyectCard/>
+
+        <CertificationCarousel/>
 
       </article>
     </>

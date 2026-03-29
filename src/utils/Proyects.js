@@ -1,173 +1,161 @@
 export const proyects = [
   {
-    image_url: '@',
+    image_url: '/assets/icons/proyects_previews/fagia.png',
     title: 'Fagia App',
     text: `REST API made in rust with the actix web framework, using Sea ORM to manage the 
     database structure, that helps to manage the transactions beetwen the food banks and donators`,
+    is_private: false,
     technologies: {
-      main_language: '../../public/assets/icons/languages/rust.jpg',
+      main_language: '/assets/icons/languages/rust.svg',
       tech: [
         { 
-          url: 'fagia symbol',
-          alt: 'fagia symbol'
+          url: '/assets/icons/technologies/actix.png',
+          alt: 'Actix Web'
         },
         {
-          url: 'sea orm symbol',
-          alt: 'sea orm symbol'
+          url: '/assets/icons/technologies/sea-orm.png',
+          alt: 'Sea Orm'
+        },
+        {
+          url: '/assets/icons/technologies/mysql.svg',
+          alt: 'MySQL'
         }
       ]
+    },
+    links: {
+      github: 'https://github.com/sebatihm/fagia',
     }
   },
   {
-    image_url: '@',
-    title: 'GPC Logistica',
-    text: `REST API made in rust with the actix web framework, using Sea ORM to manage the 
-    database structure, that helps to manage the transactions beetwen the food banks and donators`,
-    technologies: {
-      main_language: '../../public/assets/icons/languages/rust.jpg',
-      tech: [
-        { 
-          url: 'fagia symbol',
-          alt: 'fagia symbol'
-        },
-        {
-          url: 'sea orm symbol',
-          alt: 'sea orm symbol'
-        }
-      ]
-    }
-  },
-  {
-    image_url: '@',
+    image_url: '/assets/icons/proyects_previews/barbershop.png',
     title: 'Barbershop',
-    text: `REST API made in rust with the actix web framework, using Sea ORM to manage the 
-    database structure, that helps to manage the transactions beetwen the food banks and donators`,
+    text: `System made with NextJS for the front client and Express JS for the back client, this system can 
+      make appointments for clients and manage them accross diferent establishment, i worked in the frontend`,
+    is_private: false,
     technologies: {
-      main_language: '../../public/assets/icons/languages/rust.jpg',
+      main_language: '/assets/icons/languages/js.svg',
       tech: [
         { 
-          url: 'fagia symbol',
-          alt: 'fagia symbol'
+          url: '/assets/icons/technologies/nextjs.svg',
+          alt: 'NextJS'
         },
         {
-          url: 'sea orm symbol',
-          alt: 'sea orm symbol'
+          url: '/assets/icons/technologies/reactjs.svg',
+          alt: 'React'
+        },
+        {
+          url: '/assets/icons/technologies/nodejs.svg',
+          alt: 'Node'
+        },
+        {
+          url: '/assets/icons/technologies/docker.svg',
+          alt: 'Docker'
+        },
+        {
+          url: '/assets/icons/technologies/mysql.svg',
+          alt: 'MySQL'
         }
       ]
+    },
+    links: {
+      github: 'https://github.com/julianvent/barbershop',
     }
   },
   {
-    image_url: '@',
-    title: 'Fagia App',
-    text: `REST API made in rust with the actix web framework, using Sea ORM to manage the 
-    database structure, that helps to manage the transactions beetwen the food banks and donators`,
+    image_url: '/assets/icons/proyects_previews/laravel_post.png',
+    title: 'Laravel Post',
+    text: `Laravel Post is a proyect made with the sole purpose of getting familiar and learn the laravel Framework,
+      its a basic post system, where everybody could post their own thougths`,
+    is_private: false,
     technologies: {
-      main_language: '../../public/assets/icons/languages/rust.jpg',
+      main_language: 'assets/icons/languages/php.svg',
       tech: [
         { 
-          url: 'fagia symbol',
-          alt: 'fagia symbol'
+          url: 'assets/icons/technologies/laravel.svg',
+          alt: 'Laravel Icons'
         },
         {
-          url: 'sea orm symbol',
-          alt: 'sea orm symbol'
+          url: '/assets/icons/technologies/mysql.svg',
+          alt: 'MySQL'
         }
       ]
+    },
+    links: {
+      github: 'https://github.com/sebatihm/laravel-practice',
     }
   },
   {
-    image_url: '@',
+    image_url: '/assets/icons/proyects_previews/coopsbot_practice.png',
+    title: 'Coopsboot',
+    text: `Dockerized REST API Project based in the Book "Practical-Guide-to-building-an-API-backend-with-Spring-Boot" `,
+    is_private: false,
+    technologies: {
+      main_language: '/assets/icons/languages/java.svg',
+      tech: [
+        { 
+          url: '/assets/icons/technologies/springboot-initializer.svg',
+          alt: 'SpringBoot Initializer'
+        },
+        {
+          url: '/assets/icons/technologies/mysql.svg',
+          alt: 'MySQL'
+        }
+      ]
+    },
+    links: {
+      github: 'https://github.com/sebatihm/API-Springboot',
+    }
+  },
+  {
+    image_url: '/assets/icons/proyects_previews/private_project.png',
     title: 'GPC Logistica',
-    text: `REST API made in rust with the actix web framework, using Sea ORM to manage the 
-    database structure, that helps to manage the transactions beetwen the food banks and donators`,
+    text: `Mantaining a ERP made in Laravel 10 for the GPC Logistica enterprise that manages the process of said
+    enterprise, like Inventory, actives, billing and invoices`,
+    is_private: true,
     technologies: {
-      main_language: '../../public/assets/icons/languages/rust.jpg',
+      main_language: 'assets/icons/languages/php.svg',
       tech: [
         { 
-          url: 'fagia symbol',
-          alt: 'fagia symbol'
+          url: 'assets/icons/technologies/laravel.svg',
+          alt: 'Laravel Icon'
         },
         {
-          url: 'sea orm symbol',
-          alt: 'sea orm symbol'
+          url: '/assets/icons/technologies/mysql.svg',
+          alt: 'MySQL'
         }
       ]
     }
   },
   {
-    image_url: '@',
-    title: 'Barbershop',
-    text: `REST API made in rust with the actix web framework, using Sea ORM to manage the 
-    database structure, that helps to manage the transactions beetwen the food banks and donators`,
+    image_url: '/assets/icons/proyects_previews/private_project.png',
+    title: 'Dictamen Control Web App',
+    text: `A dockerized web app aplication made with NestJS and NextJS that manages the dictum flow for the 
+      Coatzacoalcos Municipal Seat`,
+    is_private: true,
     technologies: {
-      main_language: '../../public/assets/icons/languages/rust.jpg',
+      main_language: '/assets/icons/languages/js.svg',
       tech: [
         { 
-          url: 'fagia symbol',
-          alt: 'fagia symbol'
+          url: '/assets/icons/technologies/nextjs.svg',
+          alt: 'NextJS'
         },
         {
-          url: 'sea orm symbol',
-          alt: 'sea orm symbol'
-        }
-      ]
-    }
-  },
-  {
-    image_url: '@',
-    title: 'Fagia App',
-    text: `REST API made in rust with the actix web framework, using Sea ORM to manage the 
-    database structure, that helps to manage the transactions beetwen the food banks and donators`,
-    technologies: {
-      main_language: '../../public/assets/icons/languages/rust.jpg',
-      tech: [
-        { 
-          url: 'fagia symbol',
-          alt: 'fagia symbol'
+          url: '/assets/icons/technologies/reactjs.svg',
+          alt: 'React'
         },
         {
-          url: 'sea orm symbol',
-          alt: 'sea orm symbol'
-        }
-      ]
-    }
-  },
-  {
-    image_url: '@',
-    title: 'GPC Logistica',
-    text: `REST API made in rust with the actix web framework, using Sea ORM to manage the 
-    database structure, that helps to manage the transactions beetwen the food banks and donators`,
-    technologies: {
-      main_language: '../../public/assets/icons/languages/rust.jpg',
-      tech: [
-        { 
-          url: 'fagia symbol',
-          alt: 'fagia symbol'
+          url: '/assets/icons/technologies/nodejs.svg',
+          alt: 'Node'
         },
         {
-          url: 'sea orm symbol',
-          alt: 'sea orm symbol'
-        }
-      ]
-    }
-  },
-  {
-    image_url: '@',
-    title: 'Barbershop',
-    text: `REST API made in rust with the actix web framework, using Sea ORM to manage the 
-    database structure, that helps to manage the transactions beetwen the food banks and donators`,
-    technologies: {
-      main_language: '../../public/assets/icons/languages/rust.jpg',
-      tech: [
-        { 
-          url: 'fagia symbol',
-          alt: 'fagia symbol'
+          url: '/assets/icons/technologies/docker.svg',
+          alt: 'Docker'
         },
         {
-          url: 'sea orm symbol',
-          alt: 'sea orm symbol'
+          url: '/assets/icons/technologies/microsoft-sql-server.svg',
+          alt: 'MySQL'
         }
       ]
-    }
-  },
+    },
+  }
 ];

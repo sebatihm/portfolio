@@ -1,39 +1,45 @@
-// import { useState } from 'react'
 import { proyects } from '../../utils/Proyects';
-import './ProyectCard.css'
+import './ProyectCard.css';
 
 export const ProyectCard = () => {
-  // const [proyect, setProyect] = useState(proyects[0]);
-
-  const changeProyect = (index) => {
-
-    console.log('Indice del proyecto elegido: ' + index)
-  }
-
   return (
-    <div className='proyect-section'>
-      <h2>Proyects</h2>
-      <p>Here are some of the proyects where i had worked </p>
-      <article className='proyect-widget'>
-        <div className='proyect-list'>
-          {proyects.map((proyect, index) => {
-            return (
-              <button key={index} className='proyect-window' onClick={(e) => {
-                  e.preventDefault();
-                  changeProyect(index);
-                }}>
-                <img src={proyect.technologies.main_language} alt="Language Image" />
-                <p><span>{proyect.title}</span></p>
-                
-              </button>
-            )
-          })}
-        </div>
+    <section className="proyect-section">
+      <h2>Projects</h2>
+      <p>Here are some of the projects I’ve worked on</p>
 
-        <div className='proyect-media'>
+      <div className="proyect-grid">
+        {proyects.map((proyect, index) => (
+          <div key={index} className="proyect-card">
 
-        </div>
-      </article>    
-    </div>
-  )
-}
+            <img
+              src={proyect.image_url}
+              alt={proyect.title}
+              className="proyect-image"
+            />
+
+            <div className="proyect-content">
+              <h3>{proyect.title}</h3>
+              <p>{proyect.text}</p>
+
+              <div className="proyect-technologies">
+                <img src={proyect.technologies.main_language} alt="Main Language" />
+                {proyect.technologies.tech.map((tech, i) => (
+                  <img key={i} src={tech.url} alt={tech.alt} />
+                ))}
+              </div>
+
+              <div className="proyect-links">
+                { !proyect.is_private && proyect.links.github && (
+                  <a href={proyect.links.github} target='_blank'>
+                    GitHub
+                  </a>
+                )}
+              </div>
+            </div>
+
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};

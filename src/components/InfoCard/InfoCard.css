@@ -13,11 +13,25 @@
 .general-info-section > div {
   width: 50%;
 }
+
+@keyframes float {
+	0% {
+		transform: translatey(10px);
+	}
+	50% {
+		transform: translatey(-30px);
+	}
+	100% {
+		transform: translatey(10px);
+	}
+}
+
 .general-info-section > figure > img {
   width: 100%;
   aspect-ratio: 1;
   object-fit: contain;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  animation: float 3s ease-in-out infinite;
 }
 
 .languages-container {
@@ -26,6 +40,13 @@
   flex-direction: row;
   gap: 1em;
   flex-wrap: wrap;
+}
+
+@starting-style {
+  .general-info-section > figure > img {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
 }
 
 @media (width <= 800px) {
