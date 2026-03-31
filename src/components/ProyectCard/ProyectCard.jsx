@@ -3,7 +3,7 @@ import './ProyectCard.css';
 
 export const ProyectCard = () => {
   return (
-    <section className="proyect-section">
+    <section id='proyects' className="proyect-section">
       <h2>Projects</h2>
       <p>Here are some of the projects I’ve worked on</p>
 

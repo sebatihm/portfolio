@@ -2,7 +2,7 @@ export const proyects = [
   {
     image_url: '/assets/icons/proyects_previews/fagia.png',
     title: 'Fagia App',
-    text: `REST API made in rust with the actix web framework, using Sea ORM to manage the 
+    text: `A Docker-containerized REST API made in rust with the actix web framework, using Sea ORM to manage the 
     database structure, that helps to manage the transactions beetwen the food banks and donators`,
     is_private: false,
     technologies: {
@@ -29,7 +29,7 @@ export const proyects = [
   {
     image_url: '/assets/icons/proyects_previews/barbershop.png',
     title: 'Barbershop',
-    text: `System made with NextJS for the front client and Express JS for the back client, this system can 
+    text: `A Docker-containerized system made with NextJS for the front client and Express JS for the back client, this system can 
       make appointments for clients and manage them accross diferent establishment, i worked in the frontend`,
     is_private: false,
     technologies: {
@@ -87,7 +87,7 @@ export const proyects = [
   {
     image_url: '/assets/icons/proyects_previews/coopsbot_practice.png',
     title: 'Coopsboot',
-    text: `Dockerized REST API Project based in the Book "Practical-Guide-to-building-an-API-backend-with-Spring-Boot" `,
+    text: `A Docker-containerized REST API Project based in the Book "Practical-Guide-to-building-an-API-backend-with-Spring-Boot" `,
     is_private: false,
     technologies: {
       main_language: '/assets/icons/languages/java.svg',
@@ -129,7 +129,7 @@ export const proyects = [
   {
     image_url: '/assets/icons/proyects_previews/private_project.png',
     title: 'Dictamen Control Web App',
-    text: `A dockerized web app aplication made with NestJS and NextJS that manages the dictum flow for the 
+    text: `A Docker-containerized web app aplication made with NestJS and NextJS that manages the dictum flow for the 
       Coatzacoalcos Municipal Seat`,
     is_private: true,
     technologies: {

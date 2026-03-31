@@ -3,7 +3,7 @@ import { FeaturedLanguage } from "../FeaturedLanguage/FeaturedLanguage"
 export const InfoCard = () => {
   const languages = ['Rust', 'Laravel', 'Java', 'C++', 'Javascript', 'React', 'Blade', 'MySQL', 'MongoDB' ,'Docker'];
   return (
-    <article className="general-info-section">
+    <article id='about-me' className="general-info-section">
       <figure>
         <img src="../../../public/assets/media/profile-picture.webp" alt="Profile Picture" />
       </figure>

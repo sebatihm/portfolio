@@ -1,7 +1,7 @@
 .main{
   display: grid;
-  row-gap: 1em;
-  width: 80%;
+  row-gap: 3em;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
