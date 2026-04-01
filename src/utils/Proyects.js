@@ -85,7 +85,7 @@ export const proyects = [
     }
   },
   {
-    image_url: 'assets/icons/proyects_previews/coopsbot_practice.png',
+    image_url: 'assets/icons/proyects_previews/private_project.png',
     title: 'IMSS Relational Database',
     text: `A school proyect that consisted in design, create and fill a Database for the IMSS (Instituto Mexicano del Seguro Social)" `,
     is_private: false,
@@ -94,7 +94,7 @@ export const proyects = [
       tech: []
     },
     links: {
-      github: 'https://github.com/sebatihm/API-Springboot',
+      github: 'https://github.com/sebatihm/bdimss',
     }
   },
   {
