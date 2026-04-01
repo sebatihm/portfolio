@@ -20,6 +20,8 @@
   align-items: center;
   position: fixed;
   z-index: 100;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .main-navbar > a {
@@ -39,17 +41,100 @@
   
 }
 
+/* Overlay (dark background) */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 150;
+}
+
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -100%; 
+  width: 250px;
+  height: 100%;
+  background-color: black;
+  border-left: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 1em;
+  gap: 1em;
+  transition: right 0.3s ease;
+  z-index: 200;
+}
+
+.side-menu.open {
+  right: 0;
+}
+
+.side-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.side-menu a:hover {
+  text-shadow: #fff 1px 0 0.5em;
+}
+
+.close-btn {
+  align-self: flex-end;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
 .phone {
   display:none;
 }
 
+.footer {
+  width: 100%;
+  margin: 0%;
+  margin-top: 5%;
+  background-color: yellow;
+  display: grid;
+  row-gap: 1em;
+  justify-items: center;
+  color: black;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.icons-container a {
+  display: flex;
+}
+
+.icons-container img {
+  width: 100px;  
+  height: 100px;  
+  object-fit: contain;
+}
+
+.socials-text {
+  font-size: large;
+}
 
 
 
 @media (width <= 800px) {
   
   .main {
-    width: 100%;
+    width: 90%;
     justify-self: center;
   }
   .main-navbar {
@@ -74,6 +159,11 @@
   .phone:hover{
     cursor: pointer;
   }
+  .icons-container img {
+    width: 50px;  
+    height: 50px;  
+  }
+
 }
 
 
