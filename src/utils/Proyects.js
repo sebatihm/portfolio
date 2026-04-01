@@ -86,24 +86,15 @@ export const proyects = [
   },
   {
     image_url: '/assets/icons/proyects_previews/coopsbot_practice.png',
-    title: 'Coopsboot',
-    text: `A Docker-containerized REST API Project based in the Book "Practical-Guide-to-building-an-API-backend-with-Spring-Boot" `,
+    title: 'IMSS Relational Database',
+    text: `A school proyect that consisted in design, create and fill a Database for the IMSS (Instituto Mexicano del Seguro Social)" `,
     is_private: false,
     technologies: {
-      main_language: '/assets/icons/languages/java.svg',
-      tech: [
-        { 
-          url: '/assets/icons/technologies/springboot-initializer.svg',
-          alt: 'SpringBoot Initializer'
-        },
-        {
-          url: '/assets/icons/technologies/mysql.svg',
-          alt: 'MySQL'
-        }
-      ]
+      main_language: '/assets/icons/technologies/mysql.svg',
+      tech: []
     },
     links: {
-      github: 'https://github.com/sebatihm/API-Springboot',
+      github: 'https://github.com/sebatihm/bdimss',
     }
   },
   {
