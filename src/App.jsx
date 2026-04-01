@@ -3,14 +3,10 @@ import './App.css'
 import { CertificationList } from './components/CertificationsList/CertificationList';
 import { InfoCard } from './components/InfoCard/InfoCard'
 import { ProyectCard } from './components/ProyectCard/ProyectCard';
+import { CVSection } from './components/CVSection/CVSection';
 
 function App() {
   const [open, setOpen] = useState(false);
-
-  const dropdown = (e) => {
-    e.preventDefault();
-    console.log('pene')
-  };
 
   return (
     <>
@@ -47,6 +43,8 @@ function App() {
         <ProyectCard/>
 
         <CertificationList/>
+
+        <CVSection/>
 
       </article>
 

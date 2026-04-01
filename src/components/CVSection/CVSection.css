@@ -1,0 +1,21 @@
+  .section{
+    text-align: center;
+  }
+
+  .cv-container {
+    display: flex;
+    column-gap: 1em;
+    justify-content: center;
+  }
+
+  .cv-container > a {
+    padding: 0.5em;
+    border-radius: 1em;
+    text-decoration: none;
+    color: white;
+    border: 0.1em solid yellow;
+  }
+
+  .cv-container > a:hover {
+    box-shadow: 0 5px 15px rgba(245, 255, 110, 0.1);
+  }
