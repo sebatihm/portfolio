@@ -12,13 +12,13 @@ function App() {
     <>
       <nav className='main-navbar'>
         <button onClick={() => setOpen(true)} className='phone'>
-          <img className='main-navbar-img' src="/assets/icons/dev.png" alt="menu" />
+          <img className='main-navbar-img' src="assets/icons/dev.png" alt="menu" />
         </button>
 
-        <img className='no-phone main-navbar-img' src="/assets/icons/dev.png" alt="logo" />
+        <img className='no-phone main-navbar-img' src="assets/icons/dev.png" alt="logo" />
 
         <a className='no-phone' href="#about-me">About Me</a>
-        <a className='no-phone' href="#projects">Projects</a>
+        <a className='no-phone' href="#proyects">Proyects</a>
         <a className="no-phone" href="#certifications">Certificates</a>
         <a className="no-phone" href="#contact">Contact Me</a>
       </nav>
@@ -31,7 +31,7 @@ function App() {
         <button className="close-btn" onClick={() => setOpen(false)}>✕</button>
 
         <a href="#about-me" onClick={() => setOpen(false)}>About Me</a>
-        <a href="#projects" onClick={() => setOpen(false)}>Projects</a>
+        <a href="#proyects" onClick={() => setOpen(false)}>Proyects</a>
         <a href="#certifications" onClick={() => setOpen(false)}>Certificates</a>
         <a href="#contact" onClick={() => setOpen(false)}>Contact Me</a>
       </div>
@@ -54,15 +54,15 @@ function App() {
 
         <div className='icons-container'>
           <a href="https://github.com/sebatihm">
-            <img src="/assets/icons/technologies/github.svg" alt="github" />
+            <img src="assets/icons/technologies/github.svg" alt="github" />
           </a>
 
           <a href="https://www.linkedin.com/in/sebasti%C3%A1n-de-jes%C3%BAs-hern%C3%A1ndez-montero-933776361/">
-            <img src="/assets/icons/technologies/linkedin.svg" alt="linkedin" />
+            <img src="assets/icons/technologies/linkedin.svg" alt="linkedin" />
           </a>
 
           <a href="mailto:sebashermon003@gmail.com">
-            <img src="/assets/icons/technologies/email.png" alt="mail" />
+            <img src="assets/icons/technologies/email.png" alt="mail" />
           </a>
         </div>
 

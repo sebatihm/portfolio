@@ -5,7 +5,7 @@ export const InfoCard = () => {
   return (
     <article id='about-me' className="general-info-section">
       <figure>
-        <img src="/assets/media/profile-picture.webp" alt="Profile Picture" />
+        <img src="assets/media/profile-picture.webp" alt="Profile Picture" />
       </figure>
       <div>
         <h1>Hi, i'm Sebati HM! </h1>

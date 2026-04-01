@@ -14,12 +14,12 @@ export const CertificationList = () => {
                     <a
                       key={index} 
                       href={certification.path}
-                      download={certification.path.startsWith('/assets')}
+                      download={certification.path.startsWith('assets')}
                       target='_blank'
                       className='certificate-a'
                     >
                       <article className="card">
-                        <img src="/assets/icons/certifications_previews/certificate_symbol.svg" className='card-image' alt="" />
+                        <img src="assets/icons/certifications_previews/certificate_symbol.svg" className='card-image' alt="" />
                         <div className='card-body'>
                             <h3>{certification.title}</h3>
                             <p>{certification.description}</p>
