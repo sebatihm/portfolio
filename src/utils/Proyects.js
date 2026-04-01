@@ -87,7 +87,7 @@ export const proyects = [
   {
     image_url: 'assets/icons/proyects_previews/private_project.png',
     title: 'IMSS Relational Database',
-    text: `A school proyect that consisted in design, create and fill a Database for the IMSS (Instituto Mexicano del Seguro Social)" `,
+    text: `A school proyect that consisted in design, create and fill a Database for the IMSS (Instituto Mexicano del Seguro Social)`,
     is_private: false,
     technologies: {
       main_language: 'assets/icons/technologies/mysql.svg',
