@@ -100,7 +100,7 @@ export const projects = [
   {
     image_url: 'assets/icons/projects_previews/private_project.png',
     title: 'GPC Logistica',
-    text: `Mantaining a ERP made in Laravel 10 for the GPC Logistica enterprise that manages the process of said
+    text: `Maintaining a ERP made in Laravel 10 for the GPC Logistica enterprise that manages the process of said
     enterprise, like Inventory, actives, billing and invoices`,
     is_private: true,
     technologies: {
