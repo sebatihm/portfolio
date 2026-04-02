@@ -2,12 +2,13 @@
 .general-info-section {
   display: flex;
   flex-direction: row;
-  gap: 1em;
+  gap: 2em;
   justify-self: center;
   margin-top: 8%;
 }
 .general-info-section > figure {
   width: 50%;
+  margin: 0%;
 }
 
 .general-info-section > div {

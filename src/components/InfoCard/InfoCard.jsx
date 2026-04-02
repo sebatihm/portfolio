@@ -1,7 +1,7 @@
 import "./InfoCard.css"
 import { FeaturedLanguage } from "../FeaturedLanguage/FeaturedLanguage"
 export const InfoCard = () => {
-  const languages = ['Rust', 'Laravel', 'Java', 'C++', 'Javascript', 'React', 'Blade', 'MySQL', 'MongoDB' ,'Docker'];
+  const languages = ['Rust', 'Laravel', 'Java', 'C++', 'Javascript', 'React', 'Blade', 'MySQL', 'Mongo DB' ,'Docker', 'Nest JS'];
   return (
     <article id='about-me' className="general-info-section">
       <figure>

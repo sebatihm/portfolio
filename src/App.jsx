@@ -23,10 +23,8 @@ function App() {
         <a className="no-phone" href="#contact">Contact Me</a>
       </nav>
 
-      {/* Overlay */}
       {open && <div className="overlay" onClick={() => setOpen(false)} />}
 
-      {/* Sliding Menu */}
       <div className={`side-menu ${open ? "open" : ""}`}>
         <button className="close-btn" onClick={() => setOpen(false)}>✕</button>
 
@@ -34,6 +32,8 @@ function App() {
         <a href="#proyects" onClick={() => setOpen(false)}>Proyects</a>
         <a href="#certifications" onClick={() => setOpen(false)}>Certificates</a>
         <a href="#contact" onClick={() => setOpen(false)}>Contact Me</a>
+
+        <img src="assets/media/pato-duck.gif" alt="background image" />
       </div>
     
       <article className='main'>        
