@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css'
 import { CertificationList } from './components/CertificationsList/CertificationList';
 import { InfoCard } from './components/InfoCard/InfoCard'
-import { ProyectCard } from './components/ProyectCard/ProyectCard';
+import { ProjectCard } from './components/ProjectCard/ProjectCard';
 import { CVSection } from './components/CVSection/CVSection';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <img className='no-phone main-navbar-img' src="assets/icons/dev.png" alt="logo" />
 
         <a className='no-phone' href="#about-me">About Me</a>
-        <a className='no-phone' href="#proyects">Proyects</a>
+        <a className='no-phone' href="#projects">Projects</a>
         <a className="no-phone" href="#certifications">Certificates</a>
         <a className="no-phone" href="#contact">Contact Me</a>
       </nav>
@@ -29,7 +29,7 @@ function App() {
         <button className="close-btn" onClick={() => setOpen(false)}>✕</button>
 
         <a href="#about-me" onClick={() => setOpen(false)}>About Me</a>
-        <a href="#proyects" onClick={() => setOpen(false)}>Proyects</a>
+        <a href="#projects" onClick={() => setOpen(false)}>Projects</a>
         <a href="#certifications" onClick={() => setOpen(false)}>Certificates</a>
         <a href="#contact" onClick={() => setOpen(false)}>Contact Me</a>
 
@@ -40,7 +40,7 @@ function App() {
 
         <InfoCard/>
 
-        <ProyectCard/>
+        <ProjectCard/>
 
         <CertificationList/>
 
