@@ -36,6 +36,7 @@
   }
   .section{
     text-align: center;
+    scroll-margin-top: 3em;
   }
 
   .certificate-container {
