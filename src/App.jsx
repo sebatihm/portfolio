@@ -33,7 +33,6 @@ function App() {
         <a href="#certifications" onClick={() => setOpen(false)}>Certificates</a>
         <a href="#contact" onClick={() => setOpen(false)}>Contact Me</a>
 
-        <img src="assets/media/pato-duck.gif" alt="background image" />
       </div>
     
       <article className='main'>        

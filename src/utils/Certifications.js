@@ -12,6 +12,12 @@ export const Certifications = [
     preview: 'assets/icons/certifications_previews'
   },
   {
+    title: 'EF SET Certification Exam',
+    description: 'Obtained the C2 Level in the EF SET Certification Exam in Aug 2026',
+    path: 'https://cert.efset.org/en/NmnyTA',
+    preview: 'assets/icons/certifications_previews'
+  },
+  {
     title: 'Exaver I Certification',
     description: 'Obtained the Exaver I Certification Exam (A2) in the May 2023 application approved with a B grade',
     path: 'assets/files/certifications/EXAVER_I.pdf',

@@ -62,29 +62,6 @@ export const projects = [
     }
   },
   {
-    image_url: 'assets/icons/projects_previews/laravel_post.png',
-    title: 'Laravel Post',
-    text: `Laravel Post is a project made with the sole purpose of getting familiar and learn the laravel Framework,
-      its a basic post system, where everybody could post their own thougths`,
-    is_private: false,
-    technologies: {
-      main_language: 'assets/icons/languages/php.svg',
-      tech: [
-        { 
-          url: 'assets/icons/technologies/laravel.svg',
-          alt: 'Laravel Icons'
-        },
-        {
-          url: 'assets/icons/technologies/mysql.svg',
-          alt: 'MySQL'
-        }
-      ]
-    },
-    links: {
-      github: 'https://github.com/sebatihm/laravel-practice',
-    }
-  },
-  {
     image_url: 'assets/icons/projects_previews/private_project.png',
     title: 'IMSS Relational Database',
     text: `A school project that consisted in design, create and fill a Database for the IMSS (Instituto Mexicano del Seguro Social)`,
